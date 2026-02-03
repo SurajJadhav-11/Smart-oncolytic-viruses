@@ -1,1 +1,18 @@
-This folder contains the visualization of dry-lab simulations for the 3-lock OV system 
+# Simulation Results & Data Interpretation
+
+This folder contains the quantitative validation of the 3-Lock Smart Oncolytic Virus (OV) architecture. The data below represents the "Dry-Lab" phase of research, focusing on viral kinetics and safety logic thresholds.
+
+## 1. Viral Kinetics Analysis (Lock 1 & 3)
+**Objective:** To compare the efficacy of the 3-Lock "Smart" OV against a standard oncolytic virus in a KRAS-mutant tumor environment.
+
+* **Standard OV:** Shows a rapid initial spike but follows a standard decay curve as the host immune system (Lock 3) clears the unprotected virus.
+* **3-Lock Architecture:** Demonstrates a stabilized viral titer. The "Hardware" shield (Cleavable PEG) allows for sustained replication by delaying immune clearance until the tumor-specific protease threshold is met.
+
+## 2. RNA Sequestration Logic (Lock 2)
+**Objective:** To validate the safety clearance of viral RNA in healthy (non-target) cells using a logarithmic decay model.
+
+* **Healthy Cell Clearance:** The simulation confirms that the "Foreign Fragment" triggers immediate sequestration and degradation. The viral RNA concentration drops below the **Safety Clearance Threshold (0.1)** within the first 12–18 hours.
+* **Tumor Cell Stability:** In the absence of the sequestration trigger, viral RNA remains stable, allowing for successful translation and therapeutic effect.
+
+---
+*Note: These simulations use stochastic parameters to model real-world biological variability. Detailed genetic sequences and proprietary decay constants are maintained in the private research vault.*
