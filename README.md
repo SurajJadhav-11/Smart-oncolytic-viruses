@@ -42,7 +42,16 @@ The simulation scripts included here model the following:
 - [x] Mathematical Modeling of 3-Lock Logic
 - [ ] Refinement of Stochastic Simulation Parameters
 - [ ] Provisional Patent Filing (In Progress)
-
+ * [x] Conceptual Design & Logic Flow
+ * [x] Mathematical Modeling of 3-Lock Logic
+ * [x] Refinement of Stochastic Simulation Parameters
+ * [ ] Provisional Patent Filing (In Progress)
+Phase 3: Robustness & Sensitivity Testing
+To ensure the 3-Lock Architecture remains effective across diverse patient populations, I conducted a Stochastic Sensitivity Analysis. This phase models the "real-world" performance of the virus by varying critical biological parameters—such as protease concentration and RNA decay rates—to simulate physiological noise and patient-specific variability.
+Key Outcomes:
+ * Safety Integrity: Validated that Lock 2 (RNA Sequestration) remains effective even in "low-defense" healthy cell environments.
+ * Trigger Precision: Confirmed the riboswitch (Lock 1) maintains a high signal-to-noise ratio across a range of KRAS-mutant marker concentrations.
+[Detailed Technical Data & Visualizations available in the /results folder]
 ## Usage
 *Note: Due to pending intellectual property filings, the exact genetic sequences and core logic scripts are currently restricted. A "Lite" version of the simulation logic is provided in the `/simulations` folder for demonstration purposes.*
 
