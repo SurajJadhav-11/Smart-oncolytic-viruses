@@ -42,6 +42,7 @@ The simulation scripts included here model the following:
  * [x] Mathematical Modeling of 3-Lock Logic
  * [x] Refinement of Stochastic Simulation Parameters
  * [ ] Provisional Patent Filing (In Progress)
+
 Phase 3: Robustness & Sensitivity Testing
 To ensure the 3-Lock Architecture remains effective across diverse patient populations, I conducted a Stochastic Sensitivity Analysis. This phase models the "real-world" performance of the virus by varying critical biological parameters—such as protease concentration and RNA decay rates—to simulate physiological noise and patient-specific variability.
 Key Outcomes:
