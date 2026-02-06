@@ -1,0 +1,28 @@
+# Research & Development Log: February 2026
+
+This log tracks the computational milestones and logic validation phases of the 3-Lock Smart Oncolytic Virus project.
+
+## Week 1: Foundation & Safety Logic Validation
+
+### Feb 2: Repository Architecture & Initialization
+* Established dual-repository workflow for IP protection.
+* Initialized "Lite" simulation framework for viral kinetics in tumor environments.
+
+### Feb 3: Lock 1 & 2 Logic Implementation
+* Developed mathematical modeling for the Hardware Lock (Protease-activation) and Software Lock (RNA Sequestration).
+* Established the **Safety Clearance Threshold** at 0.1 relative concentration.
+
+### Feb 4: Data Interpretation Framework
+* Created a technical reporting structure to analyze the difference between Standard OV decay and the 3-Lock stabilized titer.
+* Integrated B.Pharm clinical pharmacology principles into the clearance timelines.
+
+### Feb 5: Stochastic Sensitivity Logic (Phase 3)
+* Transitioned model from deterministic to stochastic (randomized) parameters to account for physiological noise.
+* Developed the "Safety Envelope" concept to test system robustness against variable nuclease activity ($\lambda$).
+
+### Feb 6: Documentation & Literature Mapping
+* Finalized the technical documentation for the public repository.
+* Conducted a high-level review of foundational concepts in KRAS-mutant adenocarcinomas and viral immune evasion.
+
+---
+*Next Week's Focus: Advanced Sensitivity Visualizations & OIST Researcher Outreach.*
