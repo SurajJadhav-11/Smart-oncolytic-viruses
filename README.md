@@ -30,12 +30,13 @@ The simulation scripts included here model the following:
 - **Safety Thresholds:** Comparative analysis between standard OV constructs and the 3-Lock Architecture.
 - **Microenvironment Logic:** Modeling protease-cleavage efficiency and riboswitch response times.
 
-## Tech Stack
-- **Language:** Python 3.x
-- **Environment:** Miniconda / Jupyter
-- **Libraries:** - `NumPy` & `SciPy` (Mathematical Modeling)
-  - `Matplotlib` (Data Visualization)
-  - `Biopython` (Sequence analysis placeholders)
+## Tech Stack & Environment
+* **Language:** Python 3.10+
+* **Libraries:**
+    * **NumPy (v1.24+):** For high-performance array manipulation and kinetics modeling.
+    * **Matplotlib (v3.7+):** For generating publication-quality simulation visualizations.
+    * **SciPy (v1.10+):** For solving the differential equations governing viral decay.
+
 
 ## Current Status
  * [x] Conceptual Design & Logic Flow
