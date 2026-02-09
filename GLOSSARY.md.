@@ -1,0 +1,14 @@
+# Technical Glossary: 3-Lock Oncolytic Virotherapy
+
+This glossary defines the core pharmaceutical and computational terms used within the Smart-OV project to ensure cross-disciplinary clarity.
+
+## Pharmaceutical & Biological Terms
+* **Oncolytic Virotherapy:** The use of genetically engineered viruses to selectively infect and lyse (destroy) cancer cells while leaving healthy tissue unharmed.
+* **PEGylation (Cleavable):** The chemical attachment of Polyethylene Glycol to the viral capsid. In this project, a "Hardware Lock" uses protease-cleavable linkers to ensure this shield is removed only in tumor environments.
+* **Riboswitch:** A regulatory segment of a messenger RNA molecule that binds a specific ligand (in this case, KRAS markers), acting as a "Software Lock" to trigger viral replication.
+* **RNA Sequestration:** The post-transcriptional "tangling" of viral RNA to prevent translation in non-target (healthy) cells.
+
+## Computational & Engineering Terms
+* **Stochastic Simulation:** A mathematical model that accounts for randomness and biological noise, providing a probability distribution of outcomes rather than a single deterministic result.
+* **Safety Clearance Threshold:** The quantitative limit (defined as 0.1 relative concentration) at which viral components are considered neutralized by cellular defenses.
+* **Sensitivity Analysis:** The study of how uncertainty in the output of a mathematical model can be divided and allocated to different sources of uncertainty in its inputs (e.g., varying patient pH or enzyme levels).
