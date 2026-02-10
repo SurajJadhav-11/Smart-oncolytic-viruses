@@ -1,0 +1,17 @@
+# Intellectual Property & Confidentiality Notice
+
+This repository represents the public-facing computational validation of the 3-Lock Smart Oncolytic Virus (OV) architecture. 
+
+## 1. Redaction of Proprietary Data
+To protect ongoing patent filings and proprietary research, the following elements have been intentionally redacted from this public repository:
+* **Genetic Sequences:** Specific nucleotide sequences for the synthetic riboswitches and RNA sequestration fragments.
+* **Core Logic Constants:** Precise biochemical constants used in the "Private Vault" version of the simulation.
+* **Structural Blueprints:** Detailed molecular docking configurations for the cleavable PEG shield.
+
+## 2. Usage & Collaboration
+The "Lite" Python scripts provided here are for **demonstration and logic-validation purposes only**. 
+* **Copyright:** All theoretical architectures and mathematical models are the intellectual property of [Suraj Suresh Jadhav].
+* **Inquiries:** For academic collaboration or full technical whitepaper access (under NDA), please contact the lead researcher directly.
+
+## 3. Ethical Statement
+This research adheres to the ethical guidelines for dual-use biological research. The modeling is intended solely for therapeutic applications in oncology.
