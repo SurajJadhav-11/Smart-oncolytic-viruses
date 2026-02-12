@@ -12,17 +12,15 @@ Current oncolytic therapies face two primary hurdles:
 ## The 3-Lock Architecture (Patent Pending)
 This project simulates a modular safety system to solve these challenges:
 
-### 1. The Hardware Lock: Shielding & Environment-Specific Activation
-* **Mechanism:** Cleavable PEGylation.
-* **Function:** The virus is coated in Polyethylene Glycol (PEG) to evade immune detection. A tumor-specific protease linker ensures the shield is "dropped" only within the acidic, enzyme-rich tumor microenvironment.
-
-### 2. The Software Lock: Genetic Riboswitch Control
-* **Mechanism:** Transcriptional On/Off Switch.
-* **Function:** Replication is governed by a synthetic riboswitch that responds exclusively to intracellular markers found in KRAS-mutant cells.
-
-### 3. The Safeguard Lock: Post-Transcriptional Sequestration
-* **Mechanism:** RNA "Tangling" & Foreign Fragment Integration.
-* **Function:** A proprietary RNA tail modification ensures that any viral genome entering a healthy cell is immediately sequestered (tangled) and targeted for rapid enzymatic destruction. In tumor cells, this fragment acts as an adjuvant, converting "cold" tumors into "hot" immunogenic environments.
+###The Environmental Lock (Hardware-Level Activation)
+   * Mechanism: Protease-responsive surface modification.
+   * Function: Utilizes a tumor-specific linker that ensures viral activation is restricted to the acidic, enzyme-rich tumor microenvironment, protecting the payload during systemic circulation.
+ * The Transcriptional Lock (Software-Level Control)
+   * Mechanism: Synthetic Riboswitch Logic.
+   * Function: Viral replication is governed by a high-precision genetic switch that triggers exclusively in the presence of intracellular markers specific to KRAS-mutant profiles.
+ * The Biocontainment Lock (Post-Transcriptional Safeguard)
+   * Mechanism: Proprietary Intracellular Sequestration Logic.
+   * Function: A novel safeguard designed to neutralize viral genetic material within non-target cells. In healthy tissue, this mechanism facilitates rapid enzymatic clearance; within the tumor environment, it is engineered to enhance the local immunogenic response, effectively "turning the tumor hot.
 
 ## Computational Simulation (Python/Dry Lab)
 The simulation scripts included here model the following:
