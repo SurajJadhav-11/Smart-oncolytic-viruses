@@ -1,5 +1,5 @@
 # Smart-oncolytic-viruses-
-# Dual-Control Safety Architecture for KRAS-Targeted Oncolytic Virotherapy
+# Triple-Control Safety Architecture for KRAS-Targeted Oncolytic Virotherapy
 
 ## Project Overview
 This repository contains the computational modeling and simulation framework for a "Smart" Oncolytic Virus (OV) designed to target KRAS-mutant adenocarcinoma. The project focuses on a **Triple-Lock Safety System** that integrates genetic engineering (Software) with biochemical modifications (Hardware) to maximize tumor-specific lysis while ensuring rapid clearance in healthy tissue.
