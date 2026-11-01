@@ -6,7 +6,7 @@ This repository represents the public-facing computational validation of the 3-L
 To protect ongoing patent filings and proprietary research, the following elements have been intentionally redacted from this public repository:
 * **Genetic Sequences:** Specific nucleotide sequences for the synthetic riboswitches and RNA sequestration fragments.
 * **Core Logic Constants:** Precise biochemical constants used in the "Private Vault" version of the simulation.
-* **Structural Blueprints:** Detailed molecular docking configurations for the cleavable PEG shield.
+* **Structural Blueprints:** Detailed molecular docking configurations for the cleavable amino acid chain.
 
 ## 2. Usage & Collaboration
 The "Lite" Python scripts provided here are for **demonstration and logic-validation purposes only**. 
