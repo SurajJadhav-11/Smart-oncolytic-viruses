@@ -6,7 +6,7 @@ This folder contains the quantitative validation of the 3-Lock Smart Oncolytic V
 **Objective:** To compare the efficacy of the 3-Lock "Smart" OV against a standard oncolytic virus in a KRAS-mutant tumor environment.
 
 * **Standard OV:** Shows a rapid initial spike but follows a standard decay curve as the host immune system (Lock 3) clears the unprotected virus.
-* **3-Lock Architecture:** Demonstrates a stabilized viral titer. The "Hardware" shield (Cleavable PEG) allows for sustained replication by delaying immune clearance until the tumor-specific protease threshold is met.
+* **3-Lock Architecture:** Demonstrates a stabilized viral titer. The "Hardware" shield allows for sustained replication by delaying immune clearance until the tumor-specific protease threshold is met.
 
 ## 2. RNA Sequestration Logic (Lock 2)
 **Objective:** To validate the safety clearance of viral RNA in healthy (non-target) cells using a logarithmic decay model.
